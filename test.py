@@ -30,3 +30,5 @@ def test_get_courses():
 # Executar a função fora da definição
 if __name__ == "__main__":
     test_get_courses()
+
+
