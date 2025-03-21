@@ -22,4 +22,11 @@ def test_get_courses():
     assert isinstance(data, list), "Resposta não é uma lista"
     assert len(data) > 0, "Nenhum curso encontrado"
     
-    
+    # Mostrar a lista de cursos no console
+    print("Lista de cursos:")
+    for i, course in enumerate(data, 1):
+        print(f"{i}. {course}")
+
+# Executar a função fora da definição
+if __name__ == "__main__":
+    test_get_courses()
